@@ -14,7 +14,6 @@
 		779892FD278BF997007702CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779892FC278BF997007702CA /* Assets.xcassets */; };
 		77989300278BF997007702CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779892FE278BF997007702CA /* LaunchScreen.storyboard */; };
 		77989308278BF9E1007702CA /* ViewPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77989307278BF9E1007702CA /* ViewPreviewCell.xib */; };
-		7798930A278BFA37007702CA /* ViewPrevievCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77989309278BFA37007702CA /* ViewPrevievCell.swift */; };
 		7798930C278C5471007702CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7798930B278C5471007702CA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		779892FF278BF997007702CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77989301278BF997007702CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77989307278BF9E1007702CA /* ViewPreviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewPreviewCell.xib; sourceTree = "<group>"; };
-		77989309278BFA37007702CA /* ViewPrevievCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPrevievCell.swift; sourceTree = "<group>"; };
 		7798930B278C5471007702CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +66,6 @@
 				7798930B278C5471007702CA /* Constants.swift */,
 				779892F9278BF996007702CA /* Main.storyboard */,
 				77989307278BF9E1007702CA /* ViewPreviewCell.xib */,
-				77989309278BFA37007702CA /* ViewPrevievCell.swift */,
 				779892FC278BF997007702CA /* Assets.xcassets */,
 				779892FE278BF997007702CA /* LaunchScreen.storyboard */,
 				77989301278BF997007702CA /* Info.plist */,
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7798930C278C5471007702CA /* Constants.swift in Sources */,
-				7798930A278BFA37007702CA /* ViewPrevievCell.swift in Sources */,
 				779892F8278BF996007702CA /* ViewController.swift in Sources */,
 				779892F4278BF996007702CA /* AppDelegate.swift in Sources */,
 				779892F6278BF996007702CA /* SceneDelegate.swift in Sources */,
@@ -313,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.MyCalculator-11-";
+				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.MyCalculator-11--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.MyCalculator-11-";
+				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.MyCalculator-11--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
